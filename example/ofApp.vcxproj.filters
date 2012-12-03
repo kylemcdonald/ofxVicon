@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVicon\src\ofxVicon.cpp">
+      <Filter>addons\ofxVicon\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834f65-f3a9-211e-73b8-dc8563776aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVicon">
+      <UniqueIdentifier>{79237d7c-1606-1065-bad3-8220ca67a2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVicon\src">
+      <UniqueIdentifier>{580b8bfc-f9f5-aa59-b6a3-f53ffb4bbc81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVicon\libs">
+      <UniqueIdentifier>{13b4355e-7e0b-aa8d-4c58-e8659e78c3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVicon\libs\vicon">
+      <UniqueIdentifier>{a62c81a4-c83e-8bea-7747-0856e486c98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVicon\libs\vicon\include">
+      <UniqueIdentifier>{81b43984-dc6f-9c9a-fdff-bb75fe5c888b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVicon\libs\vicon\include\vicon">
+      <UniqueIdentifier>{ce3a96b2-e5e8-ba2c-a6cf-8deab7a6be21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\addons\ofxVicon\src\ofxVicon.h">
+      <Filter>addons\ofxVicon\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVicon\libs\vicon\include\vicon\ClientCodes.h">
+      <Filter>addons\ofxVicon\libs\vicon\include\vicon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVicon\libs\vicon\include\vicon\viconClient.h">
+      <Filter>addons\ofxVicon\libs\vicon\include\vicon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
